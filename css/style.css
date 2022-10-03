@@ -84,6 +84,7 @@ header{
     border-radius: 20px;
     border-style: none;
     border: solid black 1px;
+    margin-top: 2%;
 }
 /* delete decoration */
 .interact-button a{
@@ -133,5 +134,5 @@ h3{
 }
 
 #end-img img{
-    height: 35vw;
+    height: 800px;
 }
