@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 500px;
+    /* DEBUG */
+    background-color: aquamarine;
+}
+.high-box-header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* DEBUG */
+    background-color: violet;  
+    
+}
+/* logo */
+#logo{
+    display: flex;
+    align-items: center;
+}
+/* nav box */
+.nav-header{
+    height: 100px;
+    width: 50%;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+.link-nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    list-style: none;
+    /* DEBUG */
+    background-color: yellowgreen; 
+}
+/*delete decoration*/
+.link-nav-container a{
+   text-decoration: none;
+   color: white;
+}
+
+/* login button */
+.login-download{
+    display: flex;
+    align-items: center;
+}
+.login-download a{
+    text-decoration: none;
+}
+/* Where you want to open D? */
+.paragraf-under-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+    /* DEBUG */
+    background-color: tomato;
+}
+/* subtitle/paragraf */
+.center-subtitle-txt{
+    max-width: 50%;
+}
+/* centratura subtitle & paragraf */
+.center-subtitle-txt h2, .center-subtitle-txt p{
+    text-align: center;
+}
+.download-button-open-browser-button-center{
+    display: flex;
+    justify-content: center;
+}
+.download-button-open-browser-button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly; 
+    width: 20%;
+}
+.interact-button{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    border: solid black 1px;
+}
+/* delete decoration */
+.interact-button a{
+    text-decoration: none;
+    color: black;
+}
