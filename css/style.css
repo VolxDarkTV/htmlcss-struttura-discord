@@ -84,7 +84,7 @@ header{
     border-radius: 20px;
     border-style: none;
     border: solid black 1px;
-    margin-top: 2%;
+    margin: 2% 0;
 }
 /* delete decoration */
 .interact-button a{
@@ -135,4 +135,33 @@ h3{
 
 #end-img img{
     height: 800px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(3, 0, 14);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 5%;
+}
+.flex-container div{
+    background-color: rgb(103, 107, 107);
+    height: auto;
+}
+
+/* Footer Product link */
+.footer-link-article{
+    margin: 20% 0;
+}
+/* Footer Link Decoration */
+.footer-link-article a{
+    text-decoration: none;
+    color: black;
 }
